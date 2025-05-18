@@ -1,6 +1,6 @@
 # COBOL Code Bench
 
-<img src="https://cdn-uploads.huggingface.co/production/uploads/64b934072f796fffbb0ce278/OcyCB82hpMun9m3G0hpVK.png" width=75%>
+<img src="https://cdn-uploads.huggingface.co/production/uploads/64b934072f796fffbb0ce278/OcyCB82hpMun9m3G0hpVK.png">
 
 
 This project is designed to generate COBOL code for provided CobolCodeBench using various language models. It leverages state-of-the-art AI models to assist in code generation tasks, making it easier for developers to create COBOL programs efficiently.
