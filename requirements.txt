@@ -1,0 +1,7 @@
+marko 
+loguru 
+anthropic 
+bert_score 
+huggingface_hub==0.29.0 
+google-generativeai
+datasets
