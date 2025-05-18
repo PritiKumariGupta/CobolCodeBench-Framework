@@ -128,7 +128,7 @@ Please be aware that this repository has recently been migrated and is undergoin
 We are actively working to stabilize the codebase and improve its functionality in this new public setting.
 
 
-**Current Progress & To-Do:**
+### Current Progress & To-Do:
 
 Here's a high-level overview of the ongoing work. You can check back here for updates on our progress:
 
