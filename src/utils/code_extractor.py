@@ -1,4 +1,4 @@
-from marko.block import FencedCode
+import marko
 from typing import List
 import logging
 
@@ -10,7 +10,7 @@ def extract_code_block(src: str) -> List[str]:
     """
     markdown = marko.parse(src)
     def search_for_code(element, code_blocks):
-        if isinstance(element, FencedCode):
+        if isinstance(element, marko.block.FencedCode):
             code_blocks.append(element.children[0].children)
         elif hasattr(element, "children"):
             for child in element.children:

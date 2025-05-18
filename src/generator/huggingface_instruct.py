@@ -1,3 +1,22 @@
+from loguru import logger
+from . import LLMGenerator
+from src.utils import extract_code_block, Model
+
+def hf_instruct(prompt, model, tokenizer, max_length=8000, eos_token=None):
+    """
+    Generate text using a Hugging Face model with instruction-based prompting.
+    Args:
+        prompt (str): The input prompt for the model.
+        model: The Hugging Face model to use for generation.
+        tokenizer: The tokenizer for the model.
+        max_length (int): Maximum length of the generated text.
+        eos_token (str): End-of-sequence token for the model.
+    Returns:
+        str: The generated text.
+    """
+    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+    outputs = model.generate(**inputs, max_length=max_length, eos_token_id=tokenizer.eos_token_id)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
 class HuggingfaceInstruct(LLMGenerator):
     """
     Completes WORKING-STORAGE then PROCEDURE DIVISION with local Huggingface model
