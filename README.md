@@ -3,7 +3,11 @@
 <img src="https://cdn-uploads.huggingface.co/production/uploads/64b934072f796fffbb0ce278/OcyCB82hpMun9m3G0hpVK.png">
 
 
-This project is designed to generate COBOL code for provided CobolCodeBench using various language models. It leverages state-of-the-art AI models to assist in code generation tasks, making it easier for developers to create COBOL programs efficiently.
+This framework serves as a comprehensive evaluation platform for assessing the code generation and completion capabilities of various Large Language Models (LLMs) specifically within the COBOL programming language.
+
+## Objective:
+
+To rigorously measure the performance of state-of-the-art AI models in generating valid, functional, and efficient COBOL code based on the prompts and specifications provided by the [CobolCodeBench](https://huggingface.co/datasets/harshini-kumar/CobolCodeBench) benchmark.
 
 ## Project Structure
 
