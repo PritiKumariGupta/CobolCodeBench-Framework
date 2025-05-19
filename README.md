@@ -9,7 +9,7 @@ This framework serves as a comprehensive evaluation platform for assessing the c
 
 To rigorously measure the performance of state-of-the-art AI models in generating valid, functional, and efficient COBOL code based on the prompts and specifications provided by the [CobolCodeBench](https://huggingface.co/datasets/harshini-kumar/CobolCodeBench) benchmark.
 
-## Project Structure
+## Project Structure:
 
 ```
 cobol-code-generator
